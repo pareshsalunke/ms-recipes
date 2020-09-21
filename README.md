@@ -53,7 +53,7 @@ Make sure 3000 port is available and your page is accessible.
 * [Yarn](https://classic.yarnpkg.com/en/docs) - Dependency Management with Yarn
 * [Styled-Components](https://styled-components.com/docs) - CSS Styled-Component to create beautiful pages
 * [Apollo](https://www.apollographql.com/docs/) - Data Fetching with Apollo GraphQL Client
-
+* [Contentful](https://www.contentful.com/developers/docs/) - Contentful API reference
 ## Repository referenced to create Boilerplate
 
 *[NextJS Official Repository Examples](https://github.com/vercel/next.js/blob/canary/examples/) - Thanks to everyone who contributed to this project.
