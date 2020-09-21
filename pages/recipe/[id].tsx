@@ -25,6 +25,13 @@ const RecipeDetailsBase = (props: Props) => {
 
   if (loading) return <div>Loading..</div>;
   if (error) return <CustomError>Error: {error}</CustomError>;
+  if (!data.recipe && !loading) {
+    return (
+      <Layout>
+        <CustomError>Invalid Recipe ID: {id}</CustomError>
+      </Layout>
+    )
+  }
 
   const {
     recipe: {
@@ -42,7 +49,6 @@ const RecipeDetailsBase = (props: Props) => {
     <>
       <Layout>
         <div className={cn(className, 'recipe-details-wrapper')}>
-          {!data.recipe && !loading && <CustomError>Invalid Recipe ID: {id}</CustomError>}
           {data.recipe && (
             <>
               <div className={'recipe-img-wrapper'}>
