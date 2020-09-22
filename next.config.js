@@ -1,3 +1,5 @@
+const withBundleAnalyzer = require('@next/bundle-analyzer');
+
 module.exports = {
   cssModules: true,
   publicRuntimeConfig: {
@@ -5,4 +7,7 @@ module.exports = {
     CONTENTFUL_ENVIRONMENT: process.env.CONTENTFUL_ENVIRONMENT,
     CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
   },
+  enabled: process.env.ANALYZE === 'true',
 };
+
+module.exports = withBundleAnalyzer({})
