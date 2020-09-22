@@ -45,6 +45,10 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 Make sure 3000 port is available and your page is accessible.
 
+Analyze the build
+```bash
+yarn analyze
+```
 
 ## Built With
 
