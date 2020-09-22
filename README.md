@@ -58,6 +58,11 @@ Make sure 3000 port is available and your page is accessible.
 
 *[NextJS Official Repository Examples](https://github.com/vercel/next.js/blob/canary/examples/) - Thanks to everyone who contributed to this project.
 
+## Analyze
+
+![Analyze the build](./analyze/analysis.png)
+
+
 ## Contributing
 
 Not available right now. ;)
